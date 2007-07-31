@@ -22,6 +22,7 @@ License:	GPLv2
 BuildRequires:	libpurple-devel
 BuildRequires:	libtool-base
 BuildRequires:	autoconf
+Requires:	pidgin
 Url:		http://developer.berlios.de/projects/qrc/
 
 %description
