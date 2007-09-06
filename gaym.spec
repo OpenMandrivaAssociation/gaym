@@ -1,6 +1,6 @@
 %define name	gaym
 %define version 0.9.8
-%define svn	301
+%define svn	302
 %if %svn
 %define release	%mkrel 0.%svn.1
 %else
@@ -12,13 +12,14 @@ Summary:	Plugin for Pidgin to access gay.com chat
 Version:	%{version}
 Release:	%{release}
 %if %svn
-Source0:	%{name}-%{svn}.tar.bz2
+# svn checkout svn://svn.berlios.de/qrc/qrc/trunk gaym
+Source0:	%{name}-%{svn}.tar.lzma
 %else
 Source0:	%{name}-%{version}.tar.bz2
 %endif
 Group:		Networking/Instant messaging
 BuildRoot:	%_tmppath/%name-%version-%release-root
-License:	GPLv2
+License:	GPLv2+
 BuildRequires:	pidgin-devel
 BuildRequires:	libtool-base
 BuildRequires:	autoconf
