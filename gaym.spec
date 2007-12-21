@@ -18,6 +18,7 @@ Source0:	%{name}-%{svn}.tar.lzma
 Source0:	%{name}-%{version}.tar.bz2
 %endif
 Group:		Networking/Instant messaging
+BuildRoot:	%_tmppath/%name-%version-%release-root
 License:	GPLv2+
 BuildRequires:	pidgin-devel
 BuildRequires:	libtool-base
