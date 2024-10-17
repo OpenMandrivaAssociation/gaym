@@ -24,7 +24,7 @@ BuildRequires:	pidgin-devel
 BuildRequires:	libtool-base
 BuildRequires:	autoconf
 Requires:	pidgin
-Url:		http://developer.berlios.de/projects/qrc/
+Url:		https://developer.berlios.de/projects/qrc/
 
 %description
 Gaym is a Pidgin plugin that allows it to access the gay.com chat
