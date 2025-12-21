@@ -20,6 +20,9 @@ Source0:	%{name}-%{version}.tar.bz2
 Group:		Networking/Instant messaging
 BuildRoot:	%_tmppath/%name-%version-%release-root
 License:	GPLv2+
+BuildRequires:	automake
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pidgin-devel
 BuildRequires:	libtool-base
 BuildRequires:	autoconf
